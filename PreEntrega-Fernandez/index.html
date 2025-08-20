@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pizzería Auto Carro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="img/logo1.png">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="./img/logo1.png" alt="Auto Carro" class="me-2 logo-nav" style="height: 50px; width: auto"; class="me-2">
+        Auto Carro
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+          <li class="nav-item"><a class="nav-link" href="promos.html">Promos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="resenas.html">Reseñas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/alan-hardman-SU1LFoeEUkk-unsplash.jpg" class="d-block w-100 hero-img" alt="Horno de piedra">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="bg-dark bg-opacity-50 p-2 rounded">
+          <div class="caption-box">
+            <h5>Horno de Piedra</h5>
+            <p>Sabor auténtico en cada pizza</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/klara-kulikova-WcV2YkM3Dls-unsplash.jpg" class="d-block w-100 hero-img" alt="Ingredientes frescos">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="bg-dark bg-opacity-50 p-2 rounded">
+          <div class="caption-box">
+            <h5>Ingredientes Frescos</h5>
+            <p>Seleccionados todos los días</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/vit-ch-Oxb84ENcFfU-unsplash.jpg" class="d-block w-100 hero-img" alt="Masa casera">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="bg-dark bg-opacity-50 p-2 rounded">
+          <div class="caption-box">
+            <h5>Masa Casera</h5>
+            <p>Textura perfecta y crujiente</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+  <section class="py-5" id="historia">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestra Historia</h2>
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <div class="bg-dark bg-opacity-50 p-2 rounded">
+          <p class="lead">
+            Desde 2018, <strong>Auto Carro</strong> combina la tradición italiana con el espíritu de barrio.
+            Empezamos con un pequeño horno y una gran receta familiar. Hoy seguimos amasando a mano,
+            respetando los tiempos de la masa y eligiendo ingredientes frescos de productores locales.
+          </p>
+          <p>
+            Creemos en la pizza como punto de encuentro: familia, amigos y momentos simples
+            que se vuelven especiales. ¡Gracias por ser parte de nuestra mesa!
+          </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/local-frente.jpg" class="rounded shadow w-100" alt="Historia Auto Carro">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <small>&copy; 2025 Auto Carro — Todos los derechos reservados</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
